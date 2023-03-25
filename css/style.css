@@ -36,6 +36,31 @@ header{
 main{
     height: calc(100vh - 130px);
     background-color: #000000;
+    overflow-y: auto;
+}
+
+.people{
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.person{
+    position: relative;
+    margin-bottom: 10px;
+    width: calc (100% / 7 - 30px);
+}
+
+.name{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 5px 3px;
 }
 
 /* footer */
