@@ -7,3 +7,31 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+/* header */
+header{
+    height: 50px;
+}
+
+/* main */
+main{
+    height: calc(100vh - 130px);
+}
+
+/* footer */
+footer{
+    height: 80px;
+}
+
+/* DEBUG */
+header{
+    background-color: yellow;
+}
+
+main{
+    background-color: blue;
+}
+
+footer{
+    background-color: grey;
+}
